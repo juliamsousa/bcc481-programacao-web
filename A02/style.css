@@ -1,0 +1,35 @@
+* {
+    padding: 0%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 1% 5%;
+}
+
+a {
+    display: block;
+    margin: 1% 0%;
+}
+
+h1 {
+    margin-left: 5%;
+    text-transform: capitalize;
+}
+
+p {
+    width: 80%;
+    font-size: large;
+}
+
+img {
+    cursor: pointer;
+    width: 20%;
+    border: 2px solid white;
+}
+
+img:hover {
+    transform: translate(3px, -3px);
+    opacity: .9;
+}
