@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+section {
+    padding: 1% 5%;
+}
+
+h1 {
+    margin-left: 5%;
+    color: red;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    cursor: pointer;
+    width: 18%;
+    height: auto;
+    border: 2px solid white;
+}
+
+img:hover {
+    transform: translate(3px, -3px);
+    opacity: .8;
+}
