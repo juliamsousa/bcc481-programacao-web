@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "ImagensBR",
+    "version": "1.0",
+
+    "description": "Conta a quantidade de imagens na página e substitui as imagens do site por outra imagem.",
+    "content_scripts": [
+        {
+            "matches": ["https://*/*.br"],
+            "js": ["page.js"]
+        }
+    ]
+}
+  
